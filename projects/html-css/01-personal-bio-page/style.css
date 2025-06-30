@@ -22,12 +22,12 @@ body {
 
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 0.9s forwards;
 }
 
 @keyframes fadeIn {
   to {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -50,8 +50,8 @@ nav {
   color: var(--text-color);
 }
 
-nav div.logo {
-  font-size: 17px;
+nav div.logo h1 {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 

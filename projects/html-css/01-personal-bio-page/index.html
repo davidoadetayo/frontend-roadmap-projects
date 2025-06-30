@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Personal Bio Page</title>
-    <link
-      rel="stylesheet"
-      href="style.css"
-      type="text/css"
+    <meta
+      name="description"
+      content="Personal Bio of David Adetayo - Aspiring Frontend Developer, Student, Creator. Learn more about my skills, projects, and how to contact me."
     />
+    <title>Personal Bio Page</title>
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -24,27 +24,26 @@
     />
   </head>
 
-  <body>
+  <body class="fade-in">
     <nav>
       <div class="logo"><h1>Personal Bio</h1></div>
 
       <ul>
-        <li><a>Home</a></li>
+        <li><a href="#home">Home</a></li>
 
-        <li><a>About</a></li>
+        <li><a href="#about">About</a></li>
 
-        <li><a>Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <main class="container">
-      <header>
-        <h1>David Adetayo</h1>
+      <header id="home">
+        <h2>David Adetayo</h2>
         <p class="title">Aspiring Frontend Developer | Student | Creator</p>
       </header>
 
-      <section class="card about">
-        
+      <section class="card about" id="about">
         <h2>About Me</h2>
         <div class="section-content"></div>
         <p>
@@ -58,16 +57,17 @@
       <section class="card skills">
         <h2>Skills</h2>
         <div class="section-content">
-        <ul>
-          <li>HTML5, CSS3, JavaScript</li>
-          <li>Responsive Web Design</li>
-          <li>Git & GitHub</li>
-          <li>Basic React.js</li>
-          <li>UI/UX Basics</li>
-        </ul></div>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Git & GitHub</li>
+            <li>Basic React.js</li>
+            <li>UI/UX Basics</li>
+          </ul>
+        </div>
       </section>
 
-      <section class="card contact">
+      <section class="card contact" id="contact">
         <h2>Contact Me</h2>
         <div class="section-content">
           <p>
