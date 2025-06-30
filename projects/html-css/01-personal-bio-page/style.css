@@ -84,9 +84,15 @@ header {
 }
 
 header h1 {
-  color: #ffffff;
+  color: var(--text-color);
   font-size: 1.5rem;
   margin: 0;
+}
+
+header p.title {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-left: 15px;
 }
 
 .card {
@@ -94,13 +100,12 @@ header h1 {
   padding: 1.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
-  transform: rotate(180deg);
-  transition: transform 2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
   margin-bottom: 2rem;
 }
 
 .card:hover {
-  transform: rotate(360deg);
+  transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
