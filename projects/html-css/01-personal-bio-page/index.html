@@ -16,9 +16,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body class="container">
+  <body>
     <nav>
       <div class="logo"><h1>Personal Bio</h1></div>
 
@@ -31,15 +37,16 @@
       </ul>
     </nav>
 
-    <main>
+    <main class="container">
       <header>
-        <img src="#" alt="Your Name" />
-        <h1>Your Name</h1>
+        <h1>David Adetayo</h1>
         <p class="title">Aspiring Frontend Developer | Student | Creator</p>
       </header>
 
-      <section>
+      <section class="card about">
+        
         <h2>About Me</h2>
+        <div class="section-content"></div>
         <p>
           Hi! I'm a passionate student and self-taught frontend developer. I
           love building websites, learning new tech, and sharing my progress
@@ -48,37 +55,46 @@
         </p>
       </section>
 
-      <section>
+      <section class="card skills">
         <h2>Skills</h2>
+        <div class="section-content">
         <ul>
           <li>HTML5, CSS3, JavaScript</li>
           <li>Responsive Web Design</li>
           <li>Git & GitHub</li>
           <li>Basic React.js</li>
           <li>UI/UX Basics</li>
-        </ul>
+        </ul></div>
       </section>
 
-      <section class="contact">
+      <section class="card contact">
         <h2>Contact Me</h2>
-        <p>
-          Email: <a href="mailto:yourname@example.com">yourname@example.com</a>
-        </p>
-        <p>
-          Portfolio:
-          <a href="https://yourportfolio.com" target="_blank" rel="noopener"
-            >yourportfolio.com</a
-          >
-        </p>
-        <p>
-          GitHub:
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener"
-            >github.com/yourusername</a
-          >
-        </p>
+        <div class="section-content">
+          <p>
+            Email:
+            <a href="mailto:david.1.adetayo@gmail.com"
+              >david.1.adetayo@gmail.com</a
+            >
+          </p>
+          <p>
+            Portfolio:
+            <a
+              href="https://davidoadetayo.github.io/demo-portfolio-website"
+              target="_blank"
+              rel="noopener"
+              >https://davidoadetayo.github.io/demo-portfolio-website</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a
+              href="https://github.com/davidoadetayo"
+              target="_blank"
+              rel="noopener"
+              >github.com/davidoadetayo</a
+            >
+          </p>
+        </div>
       </section>
     </main>
   </body>
