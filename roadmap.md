@@ -16,8 +16,8 @@ This file tracks my progress on 22 frontend projects in this repo.
 
 | #  | Project Name                  | Status          | Notes                  |
 |----|-------------------------------|-----------------|------------------------|
-| 01 | Personal Bio Page             | ❌ Not Started  | -                      |
-| 02 | Basic Homepage Layout         | ❌ Not Started  | -                      |
+| 01 | Personal Bio Page             | ✅ Done         |Responsive              |
+| 02 | Basic Homepage Layout         | 🚧 In Progres   | -                      |
 | 03 | Responsive Landing Page       | ❌ Not Started  | -                      |
 | 04 | Multi-section Webpage Layout  | ❌ Not Started  | -                      |
 
