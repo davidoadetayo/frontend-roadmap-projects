@@ -114,7 +114,6 @@ You can track progress in [roadmap.md](./roadmap.md).
 
 1. **Clone this repo**:
 git clone https://github.com/davidoadetayo/frontend-roadmap-projects.git
-
 cd frontend-roadmap-projects
 
 2. **Navigate to any project**:
