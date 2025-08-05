@@ -14,7 +14,8 @@ body {
     background-color: var(--secondary-color);
 }
 
-* {
+*, a {
+    text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@ body {
 }
 
 header {
-    padding: 0 20px;
+    padding: 0 32px;
     background-color: var(--background-color);
 }
 
@@ -59,10 +60,11 @@ ul li a {
     color: var(--text-dark);
 }
 
-ul li a.cta-btn {
+.cta-btn {
     background-color: var(--accent-color);
     font-weight: 500;
     color: var(--text-light);
+    margin-left: 32px;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -71,10 +73,20 @@ section .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    gap: 24px;
+    margin-left: 48px;
     height: 100dvh;
 }
 
 .hero-section {
     background: url('images/hero-img.jpg') no-repeat center center/cover;
+    color: var(--text-light);
+}
+
+.hero-section h1 {
+    font-size: 48px;
+}
+
+.hero-section p {
+    font-size: 20px;
 }
