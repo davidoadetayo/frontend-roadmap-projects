@@ -32,7 +32,7 @@ This file tracks my progress on 22 frontend projects in this repo.
 | 07 | Quiz App                          | ❌ Not Started  | -                      |
 | 08 | Multiplication Table Generator    | ❌ Not Started  | -                      |
 | 09 | To-do List                        | ❌ Not Started  | -                      |
-| 10 | Theme Switcher (Light/Dark Mode) | ❌ Not Started  | -                      |
+| 10 | Theme Switcher (Light/Dark Mode)  | ❌ Not Started  | -                      |
 | 11 | Weather App (OpenWeather API)     | ❌ Not Started  | -                      |
 | 12 | Random Quote Generator            | ❌ Not Started  | -                      |
 | 13 | Counter App                       | ❌ Not Started  | -                      |
