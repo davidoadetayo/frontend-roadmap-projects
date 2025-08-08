@@ -62,10 +62,3 @@ This file tracks my progress on 22 frontend projects in this repo.
 
 ---
 
-## ✅ How to use this file
-
-- Update **Status** as you work:
-  - ✅ Done
-  - 🚧 In Progress
-  - ❌ Not Started
-- Add **Notes** for next steps or blockers.
