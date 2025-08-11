@@ -31,8 +31,9 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <a href="index.html"><img src="images/logo_image.png" alt="Manuscripts Insight Logo" /></a>
-            
+            <a href="index.html"
+              ><img src="images/logo_image.png" alt="Manuscripts Insight Logo"
+            /></a>
           </div>
 
           <ul>
@@ -40,13 +41,31 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
+            <li class="nav-cta-btn"><a class="btn" href="#">Get a Quote</a></li>
           </ul>
 
-          <div class="nav-cta-btn">
-            <a class="btn" href="#">Get a Quote</a>
+          <!-- Hamburger Icon -->
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </nav>
       </div>
+
+      <!-- Overlay -->
+      <div class="overlay" id="overlay"></div>
+
+      <!-- Mobile Menu -->
+      <aside class="sidebar" id="sidebar">
+        <ul>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="nav-cta-btn"><a class="btn" href="#">Get a Quote</a></li>
+        </ul>
+      </aside>
     </header>
 
     <main>
@@ -156,5 +175,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
