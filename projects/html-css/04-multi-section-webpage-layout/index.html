@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Meta Description for SEO -->
+    <meta
+      name="description"
+      content="Multi-section responsive webpage layout project. Features a hero section, about section, sidebar navigation, and modern CSS best practices."
+    />
+
     <!-- External Resources -->
     <!-- Font Awesome v7 CDN -->
     <link
@@ -32,7 +38,7 @@
         <nav>
           <div class="logo">
             <a href="index.html"
-              ><img src="images/logo_image.png" alt="Manuscripts Insight Logo"
+              ><img src="images/logo_image.png" alt="Manuscripts Insight Limited Logo"
             /></a>
           </div>
 
@@ -44,20 +50,20 @@
             <li class="nav-cta-btn"><a class="btn" href="#">Get a Quote</a></li>
           </ul>
 
-          <!-- Hamburger Icon -->
-          <div class="hamburger" id="hamburger">
+          <!-- Hamburger Icon (accessibility improved) -->
+          <button type="button" class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-controls="sidebar" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </button>
         </nav>
       </div>
 
-      <!-- Overlay -->
-      <div class="overlay" id="overlay"></div>
+      <!-- Overlay (accessibility improved) -->
+      <div class="overlay" id="overlay" aria-hidden="true"></div>
 
       <!-- Mobile Menu -->
-      <aside class="sidebar" id="sidebar">
+      <aside class="sidebar" id="sidebar" aria-label="Mobile navigation">
         <ul>
           <li><a href="#about-section">About</a></li>
           <li><a href="#">Services</a></li>
@@ -120,7 +126,7 @@
       <div class="container">
         <div class="column-1">
           <div class="logo">
-            <img src="images/logo_image.png" alt="Footer-logo" />
+            <img src="images/logo_image.png" alt="Manuscripts Insight Limited Footer Logo" />
           </div>
 
           <p>
@@ -129,9 +135,9 @@
           </p>
 
           <div class="footer-sci">
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in" aria-label="LinkedIn"></i>
+            <i class="fa-brands fa-facebook-f" aria-label="Facebook"></i>
+            <i class="fa-brands fa-instagram" aria-label="Instagram"></i>
           </div>
         </div>
 
@@ -151,22 +157,22 @@
           <h4>Contact</h4>
 
           <div class="info-item">
-            <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-location-dot" aria-label="Location"></i>
             <p>123 Printing Avenue, Lagos, Nigeria</p>
           </div>
 
           <div class="info-item">
-            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-phone" aria-label="Phone"></i>
             <p>+234 800 123 4567</p>
           </div>
 
           <div class="info-item">
-            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-envelope" aria-label="Email"></i>
             <p>contact@manuscriptsinsight.com</p>
           </div>
 
           <div class="info-item">
-            <i class="fa-solid fa-clock"></i>
+            <i class="fa-solid fa-clock" aria-label="Working Hours"></i>
             <p>
               Working Hours:<br />
               Mon - Fri: 9:00 AM - 6:00 PM

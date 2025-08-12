@@ -91,9 +91,8 @@ header {
   width: 100%;
   height: 4.375rem;
   padding: 0 2rem;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -166,7 +165,7 @@ section .container {
 }
 
 .hero-section p {
-  font-size: 20px;
+  font-size: 1.25rem; 
   margin-left: 0.25rem;
   margin-bottom: 1.5rem;
 }
@@ -280,7 +279,7 @@ footer .column-1 .footer-sci {
 }
 
 footer .column-1 .footer-sci i {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--text-light);
   transition: all 0.3s ease;
 }
@@ -360,6 +359,10 @@ footer .column-3 div.info-item p {
     height: 2rem;
     cursor: pointer;
     z-index: 201;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
   }
 
   .hamburger span {
@@ -460,7 +463,7 @@ footer .column-3 div.info-item p {
   }
 
   .hero-section p {
-    font-size: 16px;
+    font-size: 1rem; 
   }
 
   .about-section .container {
