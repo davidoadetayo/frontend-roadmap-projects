@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-  max-width: calc(100px + 1000px) ;
+  max-width: calc(100px + 1000px);
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -174,11 +174,7 @@ a.btn:hover {
   border-radius: 12px;
   padding: 20px;
   color: var(--text-dark);
-  background: linear-gradient(
-    to top,
-    var(--accent-color),
-    var(--accent-2)
-  );
+  background: linear-gradient(to top, var(--accent-color), var(--accent-2));
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -263,9 +259,9 @@ a.btn:hover {
   resize: vertical;
 }
 
-.contact-section form .btn-container {
+/* .contact-section form .btn-container {
   justify-content: center;
-}
+} */
 
 /* Footer */
 footer {
