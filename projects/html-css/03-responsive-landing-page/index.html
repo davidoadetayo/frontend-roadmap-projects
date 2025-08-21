@@ -1,11 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+
+    <!-- External Links  -->
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#" aria-label="Responsive Landing Page">
+              Responsive Landing Page
+            </a>
+          </div>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="text-container">
+            <h1>Practice Frontend Development with Real Projects</h1>
+
+            <p>
+              Learn HTML, CSS, and JavaScript by building responsive layouts
+              that prepare you for real-world challenges.
+            </p>
+
+            <div class="btn-container">
+              <a href="#" class="btn">Explore Projects</a>
+            </div>
+          </div>
+
+          <div class="img-container"></div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container">
+          <div class="feature">
+            <h4>Simple Layouts</h4>
+
+            <p>Create clean, professional web pages with just HTML and CSS.</p>
+          </div>
+
+          <div class="feature">
+            <h4>Responsive Design</h4>
+
+            <p>
+              Learn how to make websites that look great on mobile, tablet, and
+              desktop.
+            </p>
+          </div>
+
+          <div class="feature">
+            <h4>Hands-On Practice</h4>
+
+            <p>
+              Build sections like hero banners, feature grids, and contact
+              forms.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="container">
+          <h2>Why Practice Matters</h2>
+
+          <p>
+            Frontend development isn't just about reading tutorials — it's about
+            applying concepts in real projects. By practicing with layouts like
+            this landing page, you sharpen your skills and build confidence.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="container">
+          <h2>Get In Touch</h2>
+
+          <form action="" class="contact-form" aria-label="Contact Form">
+            <p>
+              Have questions or feedback? Fill out the form below and we'll get
+              back to you as soon as possible.
+            </p>
+
+            <div class="col-6">
+              <div class="input-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="John Doe"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="johndoe@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter a Message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="btn-container">
+              <a href="#" class="btn" >Submit</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        &copy; 2025 Responsive Landing Page. Built with HTML & CSS Grid.
+        Developed by David Adetayo &#128522;
+      </p>
+    </footer>
+  </body>
 </html>
